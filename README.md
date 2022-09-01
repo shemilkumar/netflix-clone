@@ -6,13 +6,10 @@ We are using [TMDB](https://www.themoviedb.org/) service for API integration. So
 [TMDB](https://www.themoviedb.org/).
 
 After creating account, go to your profile and click settings. \
-There you can see API. You can generate your own API key by clicking 'generate API'.
-
-<br> 
+There you can see API. You can generate your own API key by clicking 'generate API'. \
 Fill the form with random details
-<br>  
+<br />  
 [click here](https://www.themoviedb.org/signup) to create an account in [TMDB](https://www.themoviedb.org/).
-
 
 <br />
 
