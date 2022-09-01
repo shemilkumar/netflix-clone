@@ -8,14 +8,17 @@ We are using [TMDB](https://www.themoviedb.org/) service for API integration. So
 After creating account, go to your profile and click settings. \
 There you can see API. You can generate your own API key by clicking 'generate API'.
 
-[click here](https://www.themoviedb.org/signup) for create an account in [TMDB](https://www.themoviedb.org/).
+<br> 
+Fill the form with random details
+<br>  
+[click here](https://www.themoviedb.org/signup) to create an account in [TMDB](https://www.themoviedb.org/).
 
 
 <br />
 
 ## Step 2 : Create constants.js file
 
-Create a folder **Constants** in **src** and create **constants.js** file on it.<br /> <br />
+Create a folder **Constants** in **src** folder and create **constants.js** file in it.<br /> <br />
 Place these 3 lines of code in **constants.js**
 
 ```javascript
@@ -35,15 +38,14 @@ Put your API_KEY instead of `"<<Your API_KEY>>"`
 
 _If you have already installed node ignore this step_
 
+#### To install curl use the following command (if you have curl already, ignore this) 
 
-#### To install nodejs use the following command in your terminal
+### `sudo apt install curl`
 
-### `sudo apt install nodejs`
+#### To install nodejs LTS(v16.x) use the following two commands in your terminal
 
-
-#### To install npm use the following command
-
-### `sudo apt install npm`
+### `curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -`
+### `sudo apt-get install -y nodejs`
 
 <br/>
 
@@ -52,6 +54,9 @@ _If you have already installed node ignore this step_
 
 ## Step 4 : Run the Application
 
-After opening the code folder in your development environment,<br/> open your terminal on your environment and run this command
+After opening the downloaded source code folder in your development environment(VS code, Atom, etc),<br/> open your development environment's terminal and run this command for installing node modules
 
+### `npm install`
+
+#### For running the Application, run this command
 ### `npm start`
