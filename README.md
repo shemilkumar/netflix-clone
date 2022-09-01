@@ -8,6 +8,7 @@ We are using [TMDB](https://www.themoviedb.org/) service for API integration. So
 After creating account, go to your profile and click settings. \
 There you can see API. You can generate your own API key by clicking 'generate API'.
 
+[click here](https://www.themoviedb.org/signup) for create an account in [TMDB](https://www.themoviedb.org/).
 
 
 <br />
